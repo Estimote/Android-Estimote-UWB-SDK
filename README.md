@@ -43,7 +43,7 @@ import com.estimote.uwb.api.scanning.EstimoteUWBScanResult
 import com.estimote.uwb.api.ranging.EstimoteUWBRangingResult
 ```
 
-Additionally, ensure that you have added all the necessary permission requests in your app for the Bluetooth and UWB to function correctly. Detailed instructions on the required permissions are provided towards [the end of this document.](https://github.com/Estimote/iOS-Estimote-UWB-SDK/blob/master/README.md#required-user-permissions)
+Additionally, ensure that you have added all the necessary permission requests in your app for the Bluetooth and UWB to function correctly. Detailed instructions on the required permissions are provided towards [the end of this document.](https://github.com/Estimote/Android-Estimote-UWB-SDK/#required-user-permissions)
 
 
 ### Getting Started with Estimote UWB Beacons
@@ -104,7 +104,7 @@ Discovered device: b288ef rssi: -40
 ```
 
 >[!WARNING]
->If you don't see the above results in the log, or if your app crashes, it might be because you haven't added the required user permissions for Bluetooth scanning. Read more at the end of this document.
+>If you don't see the above results in the log, or if your app crashes, it might be because you haven't added the required user permissions for Bluetooth scanning. Read more at the [end of this document](https://github.com/Estimote/Android-Estimote-UWB-SDK/#required-user-permissions).
 
 
 The visible values in the log are the first 6 digits of unique and persistent identifier for each beacon. You can view the full identifier using our [iOS Estimote UWB app](https://apps.apple.com/us/app/estimote-uwb/id1593848641) from the App Store (only iOS at the moment) or when you log in into your [Estimote Cloud](https://cloud.estimote.com/) account.
@@ -188,7 +188,7 @@ Ideally keep only one beacon near the phone and the other beacons move to the ot
 
 > [!WARNING]
 > If you don't see above results in the log or your app crashes it might be because you haven't added
-required user permissions for UWB ranging. Read more at the end of this document.
+required user permissions for UWB ranging. Read more at the [end of this document](https://github.com/Estimote/Android-Estimote-UWB-SDK/#required-user-permissions).
 It is also possible your phone doesn't have UWB or your UWB Beacon doesn't have the latest Android firmware.
 
 ```
