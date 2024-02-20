@@ -131,7 +131,7 @@ Next to the identifier, the rssi value represents the received signal strength i
 
 **UWB two-way ranging**
 
-Once you discover UWB beacons using Bluetooth you can use `uwbManager.uwbDevices.collect` lambda to perform a `uwbManager.connect()` method with a `BluetoothDevice` as an argument to establish Bluetooth connection with each beacon to obtain the necessary UWB session parameters and turn on UWB radio on the beacon. You can also use `uwbManager.connectSuspend()` with coroutine.
+Once you discover UWB beacons using Bluetooth you can use `uwbManager.uwbDevices.collect` lambda. You can perform there a `uwbManager.connect()` method with a `BluetoothDevice` as an argument to establish Bluetooth connection with each beacon. It will obtain the necessary UWB session parameters and turn on UWB radio on the beacon. You can also use `uwbManager.connectSuspend()` with coroutine.
 
 ```kotlin
 lifecycleScope.launch {
