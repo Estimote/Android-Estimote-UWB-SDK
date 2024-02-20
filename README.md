@@ -4,7 +4,7 @@ Welcome to the Era of Contextual Computing!
 
 This README is created to assist you in developing next-generation, real-world applications that offer magical experiences through location-based and spatial awareness technologies, powered by Estimote UWB Beacons.
 
-Our **Estimote UWB SDK** is a software library designed to showcase precise ranging capabilities between [Estimote UWB Beacons](https://estimote.com/uwb-beacons) and UWB-enabled Android devices (Google Pixel 6 Pro, 7 Pro, 8 Pro and Samsung Galaxy Note 20, S21+, S22+, Z Fold 2, 3, 4, etc). It leverages the Bluetooth API and the Core Ultra Wideband (UWB) Jetpack library to discover, connect to, and range between UWB-enabled Android devices and beacons.
+Our **Estimote UWB SDK** is a software library designed to showcase precise ranging capabilities between [Estimote UWB Beacons](https://estimote.com/uwb-beacons) and UWB-enabled Android devices (Google Pixel 6 Pro and newer Pro, Google Pixel Fold and Google Pixel Tablet, Samsung Galaxy Note 20 Ultra, Galaxy S21 Plus and newer Plus versions, Galaxy Z Fold 2 and newer, Xiaomi MIX4). It leverages the Bluetooth API and the Core Ultra Wideband (UWB) Jetpack library to discover, connect to, and range between UWB-enabled Android devices and beacons.
 
 > [!IMPORTANT]
 > Our Android UWB SDK requires at least **Android 14**, so make sure your project's minimum SDK is set up to be at least API 34 ("UpsideDownCake", Android 14.0)
