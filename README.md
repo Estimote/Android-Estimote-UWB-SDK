@@ -204,7 +204,7 @@ Device address prefix: 02:39:.... Distance 0.49 m, Azimuth: -25.906908,  Elevati
 
 Note the azimuth and elevation are computed using a technique known as **angle-of-arrival (AoA)**.
 
-Some Google Pixel phones as well Samsung phones have multiple UWB antennas strategically positioned within the device. As a UWB signal from a beacon reaches these antennas in sequence—first hitting antenna 1, then antenna 2, etc. the time differences between these receptions enable Android to calculate the orientation from which the signal arrived. Our SDK then provices azimuth angle in degrees. See [Android documentation for RangingPosition.]([https://developer.android.com/reference/androidx/core/uwb/RangingPosition](https://developer.android.com/reference/androidx/core/uwb/RangingPosition)
+Some Google Pixel phones as well Samsung phones have multiple UWB antennas strategically positioned within the device. As a UWB signal from a beacon reaches these antennas in sequence—first hitting antenna 1, then antenna 2, etc. the time differences between these receptions enable Android to calculate the orientation from which the signal arrived. Our SDK then provices azimuth angle in degrees. See [Android documentation for RangingPosition]([https://developer.android.com/reference/androidx/core/uwb/RangingPosition](https://developer.android.com/reference/androidx/core/uwb/RangingPosition)
 
 
 >[!IMPORTANT]
