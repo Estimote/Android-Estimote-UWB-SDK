@@ -220,10 +220,10 @@ Device address prefix: 02:39:.... Distance 0.49 m, Azimuth: null,  Elevation ang
 
 In order to be able to interact with many beacons around you would need to make sure you only connect to one beacon at the time. 
 
-If you have obtained the distance measurement you can disconnect from a given beacon calling **disconnectDevice()** method providing `BluetoothDevice` as an argument and then connect to the next one using previously discussed **connect()** method.
+If you have obtained the distance measurement you can disconnect from the current UWB session calling **disconnectDevice()** method and then connect to the next one using previously discussed **connect()** method.
 
 ```kotlin
-uwbManager.disconnectDevice(device)
+uwbManager.disconnectDevice()
 ```
 
 You can also stop scanning for nearby beacons to completely stop **uwbManager.uwbDevices.collect** -> **connect()** -> **uwbManager.rangingResult.collect** lambdas flow.
