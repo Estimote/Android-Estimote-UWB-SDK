@@ -227,7 +227,7 @@ uwbManager.disconnectDevice()
 ```
 
 >[!IMPORTANT]
->Note there are two methods to connect to UWB beacons: uwbManager.connect() and uwbManager.connectSuspend(). If you use connectSuspend() for asynchronous operations you need a way to specifically cancel the coroutine that initiated the connection when you want to use disconnectDevice(). This will ensure that the connection coroutine is cancelled before or in conjunction with calling disconnectDevice. You can achieve this by keeping a reference to the job that starts when you initiate the connection and then cancelling that job when you want to disconnect. 
+>Note there are two methods to connect to UWB beacons: `uwbManager.connect()` and `uwbManager.connectSuspend()`. If you use `connectSuspend()` for asynchronous operations you need a way to specifically cancel the coroutine that initiated the connection when you want to use disconnectDevice(). This will ensure that the connection coroutine is cancelled before or in conjunction with calling disconnectDevice. You can achieve this by keeping a reference to the job that starts when you initiate the connection and then cancelling that job when you want to disconnect. 
 
 
 You can also stop scanning for nearby beacons to completely stop **uwbManager.uwbDevices.collect** -> **connect()** -> **uwbManager.rangingResult.collect** lambdas flow.
